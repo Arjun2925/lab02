@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
         btn2.setOnClickListener(view -> {
             String currentText = txt1.getText().toString();
-            if (!currentText.contains("Nishant")) {
-                txt1.setText(currentText + " Nishant");
+            if (!currentText.contains("Arjun")) {
+                txt1.setText(currentText + "Arjun");
             }
         });
 
